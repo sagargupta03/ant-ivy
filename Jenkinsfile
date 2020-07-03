@@ -1,6 +1,8 @@
 pipeline
 {
-	agent any
+	agent {
+	label 'staging'	
+	}
 	 environment {
         MAJOR_VERSION = 1
           } 
